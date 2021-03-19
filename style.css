@@ -388,6 +388,10 @@ section .title::after{
 .teams .title::after{
     content: "work i done";
 }
+.teams .carousel .box{
+    color: var(--primary-color);
+    text-decoration: none;
+}    
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
