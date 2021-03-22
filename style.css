@@ -562,6 +562,9 @@ footer span a{
     color: rgb(16, 193, 134);
     text-decoration: underline;
 }
+span.heart{
+    color: var(--primary-color);
+}
 footer span a:hover{
     text-decoration:underline;
 }
