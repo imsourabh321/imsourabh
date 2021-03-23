@@ -306,6 +306,67 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* gfuicwbhcglihih */
+.sectionDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: seagreen; */
+}
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container .card{
+    position: relative;
+    max-width: 300px;
+    height: 180px;
+    background: var(--primary-color);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+.container .card:hover{
+    height: 420px;
+}
+.container .card .imgBx{
+    position: relative;
+    width: 240px;
+    height: 180px;
+    top: -50px;
+    left: 15px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: var(--light-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.2s;
+}
+
 /* skills section styling */
 
 .skills .title::after{
