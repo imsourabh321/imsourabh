@@ -528,7 +528,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     height: 100vh; */
-    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
     /* 88888888888
     margin-top: 250px;
     background: linear-gradient(147deg,#045b3e 0%, #121212 74%);
