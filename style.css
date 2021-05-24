@@ -451,6 +451,15 @@ section .title::after{
 .skills-content .right .react::before{
     width: 80%;
 }
+.skills-content .right .java::before{
+    width: 65%;
+}
+.skills-content .right .figma::before{
+    width: 85%;
+}
+.skills-content .right .git::before{
+    width: 80%;
+}
 
 /* teams section styling */
 .teams .title::after{
