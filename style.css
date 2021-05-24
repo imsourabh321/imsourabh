@@ -329,6 +329,7 @@ section .title::after{
     position: relative;
     max-width: 300px;
     height: 180px;
+    border-radius: 8px;
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
@@ -343,6 +344,7 @@ section .title::after{
     position: relative;
     width: 240px;
     height: 180px;
+    border-radius: 4px;
     top: -50px;
     left: 15px;
     z-index: 1;
@@ -463,6 +465,16 @@ section .title::after{
     padding: 2rem;
     border-radius: 10px;
 }
+.teams .card .box a{
+    color: #04a479;
+    font-size: .9rem;
+}
+.teams .card .box a:hover{
+    color: rgb(0, 255, 195);
+}
+.teams .card .box hr{
+    margin: .6rem;
+}
 .teams .carousel .card{
     /* background: #222; */
     /* border-radius: 6px; */
@@ -472,7 +484,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .box:hover{
-    background: rgba(14, 113, 88, 0.5);
+    background: rgba(14, 113, 88, 0.2);
 }
 .teams .carousel .card .box{
     display: flex;
@@ -797,7 +809,7 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: rgb(7, 29, 23);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -807,7 +819,7 @@ footer span a{
     text-decoration: none;
 }
 .name {
-    color: rgb(16, 193, 134);
+    color: #077155;
     text-decoration: underline;
 }
 span.heart{
@@ -819,7 +831,7 @@ footer span a:hover{
 }
 /* links added */
 .footer{
-    background: #111;
+    background: rgb(7, 29, 23);
     height: auto;
     /* width: 100vw; */
     width: 100%;
@@ -864,7 +876,7 @@ footer span a:hover{
 .socials li a{
     position: relative;
     text-decoration: none;
-    color: #086747;
+    color: #077155;
 }
 .socials a i{
     font-size: 1.1rem;
